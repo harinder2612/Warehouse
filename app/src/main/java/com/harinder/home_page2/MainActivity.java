@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 
     @Override
@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
     }
 public void home(View view)
  {
-   Intent i= new Intent(this,second_act.class);
+   Intent i= new Intent(this,snackbar.class);
      startActivity(i);
  }
 }
