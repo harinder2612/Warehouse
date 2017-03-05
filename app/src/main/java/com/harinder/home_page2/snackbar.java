@@ -16,7 +16,7 @@ public class snackbar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.snackbar);
-        ts = (TextView) findViewById(R.id.text2);
+        ts = (TextView) findViewById(R.id.text3);
     }
 
 

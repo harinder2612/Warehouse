@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".snackbar" />
-        <activity android:name=".second"></activity>
+        <activity android:name=".second" />
+        <activity android:name=".intents"></activity>
     </application>
 
 </manifest>

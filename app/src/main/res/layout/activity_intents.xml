@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_intents"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harinder.home_page2.intents"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_margin="10dp"
+        android:onClick="email"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contacts"
+        android:layout_margin="10dp"
+        android:onClick="contacts"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:layout_margin="10dp"
+        android:onClick="camera"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calendar"
+        android:layout_margin="10dp"
+        android:onClick="calendar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:layout_margin="10dp"
+        android:onClick="settings"/>
+
+</LinearLayout>

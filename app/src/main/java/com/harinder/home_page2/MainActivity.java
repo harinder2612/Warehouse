@@ -24,4 +24,9 @@ public void home(View view)
      startActivity(i);
  }
 
+public void intents (View view)
+  {
+      Intent intent=new Intent(this,intents.class);
+      startActivity(intent);
+  }
 }

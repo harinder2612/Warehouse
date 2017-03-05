@@ -55,7 +55,8 @@
         android:layout_width="match_parent"
         android:layout_height="175dp"
         android:background="@color/second"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:onClick="intents">
 
         <TextView
             android:id="@+id/textView3"
@@ -80,11 +81,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="25dp"
-            android:text="N E W S"
+            android:text="I N T E N T S"
             android:textSize="22dp"
             android:gravity="center"
             android:textColor="#ffffff"
             android:layout_gravity="center"
+
             />
     </LinearLayout>
 
